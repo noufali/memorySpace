@@ -8,6 +8,8 @@ Memory Space is a WebVR application. In this browser-enabled VR world, I constru
 
 https://noufali.github.io/memorySpace/
 
+![memory2](https://user-images.githubusercontent.com/22034616/35661860-f0f4a6b4-06e2-11e8-9d95-309b1d62c486.jpg)
+
 NOTE: download the [WebVR API Emulation](https://chrome.google.com/webstore/detail/webvr-api-emulation/gbdnpaebafagioggnhkacnaaahpiefil?hl=en) which enables you to run WebVR 1.0 content without having a supported HMD headset or even a compatible browser/platform.
 
 # What's next
