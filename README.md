@@ -4,11 +4,12 @@
 
 This project uses virtual reality as personal and intimate tool. I created an environment where a user can upload 360 images, videos, or audio recordings of certain experiences in order to be immersed and revisited at a later date. A user can also share their personal [Memory Space] online or with another individual in order to show an intimate part of their life. 
 
-[Memory Space] is a WebVR application. In this browser-enabled VR world, I constructed a glass box with floating blue spheres, each containing a different memory. Once the user puts on the VR headset, they are able to look around and choose which memory to experience. They simply click on the sphere to view a memory, becoming immersed in that audiovisual story. In order to exit the memory, they simply click again to stop viewing it.
-
 https://noufali.github.io/memorySpace/
 
 ![memory2](https://user-images.githubusercontent.com/22034616/35661860-f0f4a6b4-06e2-11e8-9d95-309b1d62c486.jpg)
+
+## How does it work?
+[Memory Space] is a WebVR application. In this browser-enabled VR world, I constructed a glass box with floating blue spheres, each containing a different memory. Once the user puts on the VR headset, they are able to look around and choose which memory to experience. They simply click on the sphere to view a memory, becoming immersed in that audiovisual story. In order to exit the memory, they simply click again to stop viewing it.
 
 NOTE: download the [WebVR API Emulation](https://chrome.google.com/webstore/detail/webvr-api-emulation/gbdnpaebafagioggnhkacnaaahpiefil?hl=en) which enables you to run WebVR 1.0 content without having a supported HMD headset or even a compatible browser/platform.
 
