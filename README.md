@@ -1,6 +1,6 @@
 # [Memory Space]
 
-Memory Space is a VR world that allows you to upload memories as a way to re-experience and reflect upon certain moments in your life.
+[Memory Space] is a VR world that allows you to upload memories as a way to re-experience and reflect upon certain moments in your life.
 
 This project uses virtual reality as personal and intimate tool. I created an environment where a user can upload 360 images, videos, or audio recordings of certain experiences in order to be immersed and revisited at a later date. A user can also share their personal “Memory Space” online or with another individual in order to show an intimate part of their life. 
 
