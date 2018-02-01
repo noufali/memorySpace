@@ -4,8 +4,6 @@
 
 This project uses virtual reality as personal and intimate tool. I created an environment where a user can upload 360 images, videos, or audio recordings of certain experiences in order to be immersed and revisited at a later date. A user can also share their personal [Memory Space] online or with another individual in order to show an intimate part of their life. 
 
-https://noufali.github.io/memorySpace/
-
 ![memory2](https://user-images.githubusercontent.com/22034616/35661860-f0f4a6b4-06e2-11e8-9d95-309b1d62c486.jpg)
 
 ## How does it work?
