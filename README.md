@@ -1,4 +1,4 @@
-# memorySpace
+# [Memory Space]
 
 Memory Space is a VR world that allows you to upload memories as a way to re-experience and reflect upon certain moments in your life.
 
