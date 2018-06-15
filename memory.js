@@ -675,7 +675,7 @@ function updatePhysics( deltaTime ) {
   }
 }
 window.addEventListener('mousemove', onMouseMove, false );
-window.addEventListener("touchstart", function(){
+window.addEventListener("click", function(){
   console.log("I am pressed");
   if(isBallClicked){	// if a ball IS attached, SEND TO BACK
     let material = new THREE.MeshPhongMaterial( {
