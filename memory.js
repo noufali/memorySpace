@@ -51,7 +51,7 @@ let bottomRefractor;
 let backRefractor;
 let topRefractor;
 
-//perform three.js initialization scene when window finishes loading
+//start loading everything when window finishes loading
 window.addEventListener('load', onLoad);
 container = document.getElementById('container');
 
