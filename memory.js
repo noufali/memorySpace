@@ -420,6 +420,7 @@ function memories(){
   var origin = new THREE.SphereGeometry( 0.5, 24, 24 );
   let objectSize = 3;
   let margin = 10;
+  // making material invisible
   let material = new THREE.MeshPhongMaterial( {
     color: 0xdddddd, specular: 0x009900, shininess: 30, flatShading: true, visible: false
   } )
@@ -427,7 +428,6 @@ function memories(){
   cameraSphere.position.x = camera.position.x;
   cameraSphere.position.y = camera.position.y;
   cameraSphere.position.z = camera.position.z;
-  // mesh.visible = false;
 
   // applying rigid body
   let shape = new Ammo.btSphereShape( 0.6 );
@@ -476,6 +476,7 @@ function update() {
 
 let fps = 30;
 
+// updating elements per frame
 function animate(timestamp) {
   var deltaTime = clock.getDelta();
   // updating shader uniform values 
@@ -495,7 +496,7 @@ function animate(timestamp) {
   intersects = raycaster.intersectObjects(spheres);
 
   if ( intersects.length > 0) {
-    // if raycaster intersects, then heighlight memory sphere by making it bigger
+    // if raycaster intersects, then highlight memory sphere by making it bigger
     if ( INTERSECTED != intersects[ 0 ].object & isBallClicked == false ) {
       INTERSECTED = intersects[ 0 ].object;
       let sisterKey = INTERSECTED.userData.sister;
