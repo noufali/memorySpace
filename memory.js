@@ -368,6 +368,7 @@ function memories(){
     let objectSize = 3;
     let margin = 0.05;
     let num = THREE.Math.randInt(0,4);
+    // giving spheres texture map from json file containing images
     let texture = new THREE.TextureLoader().load( data[num].image );
     texture.format = THREE.RGBFormat;
     let materialBack = new THREE.MeshBasicMaterial({
@@ -568,6 +569,7 @@ function updatePhysics( deltaTime ) {
       }
     } else {
         let objThree = dynamicObjects[ i ];
+        // giving memory spheres some motion with velocity 
         let vec = new Ammo.btVector3(1,1,1);
         objThree.userData.physicsBody.setAngularVelocity( vec );
         var objPhys = objThree.userData.physicsBody;
