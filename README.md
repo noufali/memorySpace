@@ -12,7 +12,7 @@ This project uses virtual reality as personal and intimate tool. I created an en
 NOTE: download the [WebVR API Emulation](https://chrome.google.com/webstore/detail/webvr-api-emulation/gbdnpaebafagioggnhkacnaaahpiefil?hl=en) which enables you to run WebVR 1.0 content without having a supported HMD headset or even a compatible browser/platform.
 
 ### Tools Used
-Three.js,WebVR,HTML/CSS,javascript,jQuery
+Three.js, WebVR, HTML/CSS, javascript, jQuery
 
 ## What's next
 
